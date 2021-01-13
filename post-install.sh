@@ -1,29 +1,32 @@
 #!/bin/bash
 
-echo "UBUNTU POST-INSTALL SCRIPT"
+echo "UBUNTU POST-INSTALL SCRIPT" > log.txt
+#La commande echo permet d'afficher un commentaire
+echo "Updating APT..." >> log.txt
 
-echo "Updating APT..."
+sudo apt-get update  >> log.txt
+#La commande sudo permet d'exécuter la commande en super-utilisateur
+#La commande apt-get permet d'effectuer l'installation et la désinstallation de paquets en provenance d'un dépôt APT.
+#Update permet de mettre à jour la commande placer juste avant
+clear  >> log.txt
+#Cette commande permet d'effacer l'écran
+echo "Installing base packages"  >> log.txt
 
-sudo apt-get update 
+sudo apt-get install --yes git git-extras build-essential python3-pip htop glances  >> log.txt
+#install permet d'installer les applications ou paquets demandés juste après
+#--yes permet de répondre yes si des questions sont demandées
+echo "Installing discord"  >> log.txt
 
-clear
+sudo snap install discord  >> log.txt
+#snap install permet d'installer l'application via le store d'application ubuntu
+clear  >> log.txt
 
-echo "Installing base packages"
+echo "Installing Visual Code Studio"  >> log.txt
 
-sudo apt-get install --yes git git-extras build-essential python3-pip htop glances
+sudo snap install code --classic  >> log.txt
 
-echo "Installing discord"
+clear  >> log.txt
 
-sudo snap install discord
+echo "Installing finish"  >> log.txt
 
-clear
-
-echo "Installing Visual Code Studio"
-
-sudo snap install code --classic
-
-clear
-
-echo "Installing finish"
-
-clear
+clear  >> log.txt

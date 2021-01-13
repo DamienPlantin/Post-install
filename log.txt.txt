@@ -1,0 +1,24 @@
+UBUNTU POST-INSTALL SCRIPT
+Updating APT...
+Atteint :1 http://fr.archive.ubuntu.com/ubuntu groovy InRelease
+Atteint :2 http://fr.archive.ubuntu.com/ubuntu groovy-updates InRelease
+Atteint :3 http://fr.archive.ubuntu.com/ubuntu groovy-backports InRelease
+Atteint :4 http://security.ubuntu.com/ubuntu groovy-security InRelease
+Réception de :5 https://packages.microsoft.com/repos/ms-teams stable InRelease [17,5 kB]
+Err :5 https://packages.microsoft.com/repos/ms-teams stable InRelease
+  Les signatures suivantes n'ont pas pu être vérifiées car la clé publique n'est pas disponible : NO_PUBKEY EB3E94ADBE1229CF
+Lecture des listes de paquets…
+Installing base packages
+Lecture des listes de paquets…
+Construction de l'arbre des dépendances…
+Lecture des informations d'état…
+build-essential est déjà la version la plus récente (12.8ubuntu3).
+git est déjà la version la plus récente (1:2.27.0-1ubuntu1).
+htop est déjà la version la plus récente (3.0.2-1).
+git-extras est déjà la version la plus récente (6.0.0-1).
+glances est déjà la version la plus récente (3.1.4.1-1).
+python3-pip est déjà la version la plus récente (20.1.1-2).
+0 mis à jour, 0 nouvellement installés, 0 à enlever et 1 non mis à jour.
+Installing discord
+Installing Visual Code Studio
+Installing finish
