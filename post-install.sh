@@ -8,7 +8,7 @@ sudo apt-get update  >> log.txt
 #La commande sudo permet d'exécuter la commande en super-utilisateur
 #La commande apt-get permet d'effectuer l'installation et la désinstallation de paquets en provenance d'un dépôt APT.
 #Update permet de mettre à jour la commande placer juste avant
-clear  >> log.txt
+clear
 #Cette commande permet d'effacer l'écran
 echo "Installing base packages"  >> log.txt
 
@@ -19,14 +19,14 @@ echo "Installing discord"  >> log.txt
 
 sudo snap install discord  >> log.txt
 #snap install permet d'installer l'application via le store d'application ubuntu
-clear  >> log.txt
+clear
 
 echo "Installing Visual Code Studio"  >> log.txt
 
 sudo snap install code --classic  >> log.txt
 
-clear  >> log.txt
+clear
 
 echo "Installing finish"  >> log.txt
 
-clear  >> log.txt
+clear
